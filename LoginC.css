@@ -14,8 +14,9 @@ body{
     font-weight: bold;
     font-size: 35px;
     
-    padding: 10px 0 10px 0;
-    margin-left: 10px;
+
+    padding: 10px 0 10px 50px;
+    margin-left: 25px;
     
 }
 
@@ -23,9 +24,10 @@ body{
     color: #FFC130;
     font-weight: bold;
     font-size: 35px;
-    
+    padding-left: 50px;
+
     padding: px 0 10px 0;
-    margin-left: 10px;
+    margin-left: 25px;
     
 }
 .intro{
@@ -33,30 +35,31 @@ body{
     font-weight:normal;
     font-size: 15px;
     
-    padding: 10px 0 10px 0;
-    margin-left: 10px;
+
+    padding: 10px 0 10px 50px;
+    margin-left: 25px;
     margin-top: 30px;
 }
 
 .input-field {
+text-align:  center;
 border: none;
 border-radius: 30px;
-text-align: center;
-height: 45px;
+height: 40px;
 outline: none;
-width: 25%;
+width: 20%;
+color: #fff;
 background: #FFC130;
 cursor:pointer;
 transition: .3s;
-margin-top: 150px;
-
 font-weight: bold;
+margin-left: 60px;
+margin-top: 140px;
 }
 
 label a{
     color: #fff;
     text-decoration: none;
-    
 }
 
 .image-container {
@@ -65,7 +68,12 @@ label a{
     right: 5%;
     transform: translateY(-50%);
 }
+.submit{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 
+}
 .image-container img {
     height: 300px;
     width: auto;
